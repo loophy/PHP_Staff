@@ -31,7 +31,7 @@ else
 
 	try
 	{
-		$post=sanitize($post);
+		$post=sanitize($_POST);
 		$staff_code=$post['code'];
 		$staff_name=$post['name'];
 		$staff_pass=$post['pass'];

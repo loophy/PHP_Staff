@@ -29,7 +29,7 @@ else
 
 	require_once('../common/common.php');
 
-	$psot=sanitize($post);
+	$psot=sanitize($_POST);
 	$staff_name=$post['name'];
 	$staff_pass=$post['pass'];
 	$staff_pass2=$post['pass2'];
